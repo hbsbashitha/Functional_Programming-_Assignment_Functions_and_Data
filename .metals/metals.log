@@ -6,3 +6,1147 @@
 [0m2021.08.20 19:52:59 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
 [0m2021.08.20 19:52:59 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q1.scala[0m
 [0m2021.08.20 19:52:59 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 19:55:29 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.20 19:55:38 INFO  time: code lens generation in 2m38s[0m
+Aug 20, 2021 8:06:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Aug 20, 2021 8:07:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Aug 20, 2021 8:08:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Aug 20, 2021 8:08:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Aug 20, 2021 8:08:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Aug 20, 2021 8:08:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Aug 20, 2021 8:08:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Aug 20, 2021 8:08:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Aug 20, 2021 8:13:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 19 is not a valid line number, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 19 is not a valid line number, allowed [0..0]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2158)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.lang.IllegalArgumentException: 19 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:70)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Aug 20, 2021 8:13:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Aug 20, 2021 8:13:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Aug 20, 2021 8:13:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Aug 20, 2021 8:13:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+Aug 20, 2021 8:13:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+[0m2021.08.20 20:13:38 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:13:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+[0m2021.08.20 20:13:38 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q1.scala[0m
+Aug 20, 2021 8:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+Aug 20, 2021 8:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+Aug 20, 2021 8:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Aug 20, 2021 8:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+Aug 20, 2021 8:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Aug 20, 2021 8:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+Aug 20, 2021 8:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+Aug 20, 2021 8:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+[0m2021.08.20 20:13:39 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+[0m2021.08.20 20:13:47 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+[0m2021.08.20 20:13:49 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+[0m2021.08.20 20:13:55 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+[0m2021.08.20 20:14:24 ERROR text document: file:///E:/Transcend/UCSC%20Lectures/2nd%20year/1st%20semester/SCS2204%20Functional%20Programming/Assignments/Assignment%20-%20Functions%20and%20Data/Functional_Programming-_Assignment_Functions_and_Data/q1.scala
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:183)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:80)
+	at java.util.HashMap.compute(HashMap.java:1320)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2732)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:76)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.currentDocument(SyntheticsDecorationProvider.scala:256)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.publishSynthetics(SyntheticsDecorationProvider.scala:74)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1031)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:831)
+[0m
+Aug 20, 2021 8:14:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 85
+Aug 20, 2021 8:14:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+Aug 20, 2021 8:14:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 86
+[0m2021.08.20 20:14:50 ERROR text document: file:///E:/Transcend/UCSC%20Lectures/2nd%20year/1st%20semester/SCS2204%20Functional%20Programming/Assignments/Assignment%20-%20Functions%20and%20Data/Functional_Programming-_Assignment_Functions_and_Data/q1.scala
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:183)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:80)
+	at java.util.HashMap.compute(HashMap.java:1320)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2732)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:76)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1507)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1505)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:831)
+[0m
+[0m2021.08.20 20:14:58 INFO  time: code lens generation in 28s[0m
+Aug 20, 2021 8:15:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+Aug 20, 2021 8:15:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+[0m2021.08.20 20:15:03 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:15:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+Aug 20, 2021 8:15:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 105
+Aug 20, 2021 8:15:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 110
+Aug 20, 2021 8:15:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+Aug 20, 2021 8:15:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 106
+[0m2021.08.20 20:15:03 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:15:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 113
+Aug 20, 2021 8:15:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 114
+[0m2021.08.20 20:15:03 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 104
+Aug 20, 2021 8:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 112
+Aug 20, 2021 8:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+Aug 20, 2021 8:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 116
+[0m2021.08.20 20:15:03 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 118
+[0m2021.08.20 20:15:11 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:15:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 142
+Aug 20, 2021 8:15:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+[0m2021.08.20 20:15:52 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:15:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 154
+[0m2021.08.20 20:16:02 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+[0m2021.08.20 20:16:07 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:16:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 184
+Aug 20, 2021 8:16:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 189
+Aug 20, 2021 8:16:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 192
+[0m2021.08.20 20:16:15 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+[0m2021.08.20 20:16:19 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:16:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 201
+Aug 20, 2021 8:16:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 202
+Aug 20, 2021 8:16:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 204
+Aug 20, 2021 8:16:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 205
+[0m2021.08.20 20:16:23 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:16:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:15: error: identifier expected but = found
+def = b
+    ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:15: error: identifier expected but = found
+def = b
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.name(ScalametaParser.scala:1961)
+	at scala.meta.internal.parsers.ScalametaParser.termName(ScalametaParser.scala:1964)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4372)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4366)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:4300)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:4137)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:4122)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:5070)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:5064)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 8:16:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 8:16:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 8:16:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 8:16:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 8:16:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 8:16:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 8:16:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 8:16:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.08.20 20:16:27 INFO  time: code lens generation in 1.54s[0m
+Aug 20, 2021 8:16:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 8:17:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.08.20 20:17:14 INFO  time: code lens generation in 17s[0m
+Aug 20, 2021 8:17:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 8:17:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.08.20 20:17:27 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Aug 20, 2021 8:17:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+file%3A%2F%2F%2FE%3A%2FTranscend%2FUCSC%2520Lectures%2F2nd%2520year%2F1st%2520semester%2FSCS2204%2520Functional%2520Programming%2FAssignments%2FAssignment%2520-%2520Functions%2520and%2520Data%2FFunctional_Programming-_Assignment_Functions_and_Data%2Fq2.scala:19: error: ; expected but . found
+override def toString = this.num.toString + "\\" + this denum.toString
+                                                             ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:906)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:912)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:926)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:5080)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:765)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4903)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4888)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4873)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:4570)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:4546)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4490)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5017)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5007)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5016)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5247)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5206)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5189)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:853)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:887)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5188)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5194)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$263.apply(ScalametaParser.scala:5258)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Aug 20, 2021 8:17:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 256
+Aug 20, 2021 8:17:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..0]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2158)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:70)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.08.20 20:17:58 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:18:02 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:18:08 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:18:08 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+Aug 20, 2021 8:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 288
+[0m2021.08.20 20:18:12 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:18:25 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:18:33 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:18:33 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:18:36 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:18:40 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+Aug 20, 2021 8:18:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 345
+Aug 20, 2021 8:18:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 346
+[0m2021.08.20 20:18:43 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:18:45 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:18:56 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:19:03 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.08.20 20:19:35 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+Aug 20, 2021 8:19:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 440
+[0m2021.08.20 20:19:42 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+Aug 20, 2021 8:19:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 454
+Aug 20, 2021 8:19:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 455
+Aug 20, 2021 8:19:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 456
+[0m2021.08.20 20:20:18 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+something's wrong: no file:///E:/Transcend/UCSC%20Lectures/2nd%20year/1st%20semester/SCS2204%20Functional%20Programming/Assignments/Assignment%20-%20Functions%20and%20Data/Functional_Programming-_Assignment_Functions_and_Data/q4.scala in List[Account]RangePosition(file:///E:/Transcend/UCSC%20Lectures/2nd%20year/1st%20semester/SCS2204%20Functional%20Programming/Assignments/Assignment%20-%20Functions%20and%20Data/Functional_Programming-_Assignment_Functions_and_Data/q4.scala, 324, 324, 337)
+[0m2021.08.20 20:20:19 INFO  time: code lens generation in 1.18s[0m
+[0m2021.08.20 20:20:22 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:20:27 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:20:29 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:20:35 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:21:17 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:21:30 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:21:34 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+Aug 20, 2021 8:21:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 559
+Aug 20, 2021 8:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 558
+Aug 20, 2021 8:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 557
+Aug 20, 2021 8:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 562
+Aug 20, 2021 8:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 561
+Aug 20, 2021 8:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 569
+[0m2021.08.20 20:21:40 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+Aug 20, 2021 8:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 565
+Aug 20, 2021 8:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 570
+[0m2021.08.20 20:21:40 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+Aug 20, 2021 8:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 571
+Aug 20, 2021 8:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 575
+[0m2021.08.20 20:21:42 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+Aug 20, 2021 8:21:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 585
+Aug 20, 2021 8:21:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 595
+Aug 20, 2021 8:21:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 597
+Aug 20, 2021 8:21:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 596
+Aug 20, 2021 8:21:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 598
+Aug 20, 2021 8:21:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 602
+Aug 20, 2021 8:21:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 609
+[0m2021.08.20 20:21:53 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:22:01 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:22:01 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+Aug 20, 2021 8:22:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 627
+Aug 20, 2021 8:22:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 625
+Aug 20, 2021 8:22:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 626
+[0m2021.08.20 20:22:06 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:22:17 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:22:38 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:22:45 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.08.20 20:23:06 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
