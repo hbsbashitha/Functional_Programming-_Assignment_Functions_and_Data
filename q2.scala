@@ -14,7 +14,7 @@ class RationalNum(a: Int, b: Int) {
 def num = a
 def denum = b
 
-def sub(r: RationalNum) =new RationalNum(num * r denum - r.num * denum, denum * r denum)
+def sub(r: RationalNum) =new RationalNum(this.num * r.denum - r.num * this.denum, this.denum * r.denum)
 
 override def toString = this.num.toString + "\\" + this.denum.toString
 }

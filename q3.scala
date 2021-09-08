@@ -7,7 +7,7 @@ object que3{
       println(account1)
       println(account2)
 
-      println()
+      println() 
       account1.transfer(account2, 100)
 
       println("After Transfer")

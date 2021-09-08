@@ -1150,3 +1150,181 @@ WARNING: Unmatched cancel notification for request id 626
 [0m2021.08.20 20:22:38 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
 [0m2021.08.20 20:22:45 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
 [0m2021.08.20 20:23:06 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+Aug 20, 2021 8:28:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 697
+Aug 20, 2021 8:28:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 699
+Aug 20, 2021 8:28:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 702
+Aug 20, 2021 8:28:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 705
+Aug 20, 2021 8:34:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 717
+Aug 20, 2021 8:34:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 731
+[0m2021.08.20 20:34:33 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.09.06 15:16:27 INFO  Started: Metals version 0.10.5 in workspace 'E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data' for client Visual Studio Code 1.60.0.[0m
+[0m2021.09.06 15:16:30 INFO  time: initialize in 2.68s[0m
+[0m2021.09.06 15:17:15 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.06 15:17:15 WARN  no build tool detected in workspace 'E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.09.06 15:17:15 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q4.scala[0m
+[0m2021.09.06 15:17:15 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q1.scala[0m
+[0m2021.09.06 15:17:24 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.09.06 15:17:29 INFO  time: code lens generation in 3.61s[0m
+[0m2021.09.06 15:17:29 INFO  time: code lens generation in 3.63s[0m
+[0m2021.09.06 15:17:29 INFO  time: code lens generation in 13s[0m
+[0m2021.09.06 15:17:29 INFO  time: code lens generation in 13s[0m
+[0m2021.09.06 15:17:29 INFO  time: code lens generation in 13s[0m
+[0m2021.09.06 15:19:03 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Sep 06, 2021 3:19:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Sep 06, 2021 3:20:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+Sep 06, 2021 3:22:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.09.06 15:23:03 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+[0m2021.09.06 15:23:15 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+[0m2021.09.06 15:23:26 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Sep 06, 2021 3:23:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 146
+[0m2021.09.06 15:23:36 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Sep 06, 2021 3:23:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2158)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:70)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Sep 06, 2021 3:23:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2158)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:70)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Sep 06, 2021 3:23:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2158)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:70)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Sep 06, 2021 3:23:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 175
+Sep 06, 2021 3:23:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2158)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.lang.IllegalArgumentException: 16 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:70)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Sep 06, 2021 3:23:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 176
+Sep 06, 2021 3:23:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 179
+[0m2021.09.06 15:23:36 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q2.scala[0m
+Sep 06, 2021 3:23:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 178
+[0m2021.09.06 15:27:23 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.09.06 15:29:32 WARN  no build target for: E:\Transcend\UCSC Lectures\2nd year\1st semester\SCS2204 Functional Programming\Assignments\Assignment - Functions and Data\Functional_Programming-_Assignment_Functions_and_Data\q3.scala[0m
+[0m2021.09.06 15:55:19 INFO  shutting down Metals[0m
